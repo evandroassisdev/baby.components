@@ -3,7 +3,7 @@ import { LocalStorage } from 'quasar'
 
 export default {
   Logout: (state) => {
-    LocalStorage.remove('token')
+    LocalStorage.remove('@ImagemBaby:token')
     state.token = null
     state.user = null
     state.isAuth = false

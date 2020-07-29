@@ -1,6 +1,6 @@
 <template>
   <div id="Search">
-    <MBRInput v-model="table.filters.pesquisa" icon='search' label="Pesquisar" placeholder='pesquise aqui' class="input"/>
+    <b-input v-model="table.filters.pesquisa" icon='search' label="Pesquisar" placeholder='pesquise aqui' class="input"/>
     <div class="buttons">
     </div>
   </div>

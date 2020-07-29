@@ -1,2 +1,2 @@
-import { store as mbr } from './src'
-export default { mbr }
+import { store as baby } from './src'
+export default { baby }
