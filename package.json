@@ -1,6 +1,6 @@
 {
   "name": "baby.components",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/evandroassisdev/baby.components/issues"
   },
-  "homepage": "https://github.com/evandroassisdev/baby.components#readme"
+  "homepage": "https://github.com/evandroassisdev/baby.components#readme",
+  "dependencies": {
+    "js-base64": "^3.3.3"
+  }
 }

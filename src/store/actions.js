@@ -110,3 +110,7 @@ export const Delete = ({ dispatch }, object) => {
       return erro.response.data
     })
 }
+
+export const UserState = ({ commit }) => {
+  commit('Teste')
+}
